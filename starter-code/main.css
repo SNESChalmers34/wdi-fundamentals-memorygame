@@ -1,0 +1,67 @@
+body{
+	text-align: center;
+}
+
+h1{
+	color: rgb(2, 132, 130);
+}
+
+h2{
+	color: #ffd700;
+}
+
+/*NAV*/
+
+nav{
+	background:#808080;
+}
+
+nav a{
+	text-decoration: none;
+	background: #ffbf00;
+	color: white;
+	padding: 35px;
+	float: left;
+	display: block;
+}
+
+nav a:hover{
+	background: #ee5f3c;
+}
+
+
+.board{
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+	background: blue;
+}
+
+.card{
+	height:200px;
+	width: 150px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background:yellow;
+	float: left;
+	margin: 8%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+/*footer*/
+
+footer{
+	background: #808080;
+}
+
+.name{
+	color: #ff0000;
+}
